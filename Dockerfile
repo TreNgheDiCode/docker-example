@@ -6,7 +6,7 @@ ENV MONGODB_DB_USERNAME=admin \
 	
 RUN mkdir -p /home/app
 
-COPY . /home/app
+COPY ./app /home/app
 
 WORKDIR /home/app
 
